@@ -1,11 +1,13 @@
-import React from 'react';
 import './App.css';
-import KanbanBoard from './components/KanbanBoard';
+import Kanban from './components/Kanban';
+import Title from './components/Title';
 
 function App() {
+
   return (
     <div className="App">
-      <KanbanBoard />
+      <Kanban/>
+      <Title/>
     </div>
   );
 }
